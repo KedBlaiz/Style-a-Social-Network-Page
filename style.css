@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+ 
+}
+body {
+    background-color: #dfe3ee;
+}
+
+.big-blue-header {
+    height: 350px;
+    width: 850px;
+    background-color: #3b5998;
+    margin: 0px auto;
+}
+
+.navbar {
+    width: 850px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    top: -5px;
+    margin: 0px auto;
+}
+.profile-photo {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    background-color: #3b5998;
+    border: 1px solid black;
+    border-radius: 1.70%;
+    top:  -150px;
+    left: 20px;
+}
+ul {
+    position: relative;
+    left: 15%;
+}
+
+li {
+    margin-left: 10px;
+    list-style-type: none;
+    float: left;
+    font-size: 17px;
+    position: relative;
+    top: -185px;
+    left: 50px;
+    font-family: Helvetica;
+    }
+
+.timeline {
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 210px;
+    font-family: Helvetica;
+}
+h2 {
+    color: white;
+    position: relative;
+    top: 240px;
+    left: 210px;
+    font-family: sans-serif;
+}
+.like {
+    border-radius: 5%;
+    position: relative;
+    float: right;
+    top: 200px;
+    left: -250px;
+    margin: 5px;
+    font-family: Helvetica;
+    font-size: medium;
+    font-weight: 10px black;
+}
+
+.container {
+    border-radius: 5%;
+    position: relative;
+    float: right;
+    top: 200px;
+    left: 75px;
+    margin: 5px;
+}
+main {
+    position: absolute;
+    height: 350px;
+    width: 850px;
+    margin: 0px auto;
+    margin-top: -130px;
+}
+.column-left {
+   background-color: white;
+    width: 328px;
+    height: 200px;
+    float: left;
+    position: relative;
+  
+}
+.card-left {
+    background-color: white;
+    width: 328px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+}
+.column-right {
+    background-color: white;
+    width: 512px;
+    height: 500px;
+    float: right;
+    position: relative;
+}
+.card-right {
+    background-color: white;
+    width: 512px;
+    height: 111px;
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+p {
+    color: black;
+    font-family: Helvetica;
+    font-size: small;
+    justify-items: center;
+}
+h3 {
+    color: black;
+    
+}
+
+.button{
+    font-family: Helvetica;
+    font-size: medium;
+    font-weight: 10px black;
+}
+.links {
+    border-left: 1px solid gray;
+    padding-left: 5px;
+}
+.box {
+    display: grid;
+    width: 100px;
+    height: 100px;
+    background-color: #3b5998;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #3b5998;
+    
+}
+
+.border-left {
+    width: 328px;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+  
+}
+
+.border-right {
+    width: 512px;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
